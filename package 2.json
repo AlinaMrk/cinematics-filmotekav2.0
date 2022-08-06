@@ -1,0 +1,35 @@
+{
+  "name": "cinematics-filmotekav2.0",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://maksim-yaroschuk.github.io/cinematics-filmotekav2.0/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /cinematics-filmotekav2.0/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksim-Yaroschuk/cinematics-filmotekav2.0"
+  },
+  "keywords": [],
+  "author": "Maksim Yaroschuk <batikrivne@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maksim-Yaroschuk/cinematics-filmotekav2.0/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "firebase": "^9.9.0",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
